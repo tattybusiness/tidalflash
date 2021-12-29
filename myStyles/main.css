@@ -89,10 +89,20 @@ a.inUse {
     width: 550px;
 }
 
+span {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
 span.purple {
+    font-size: unset;
+    font-weight: unset;
     color: var(--purple-main);
 }
 
 span.pink {
+    font-size: unset;
+    font-weight: unset;
     color: var(--pink-main);
 }

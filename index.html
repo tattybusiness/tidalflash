@@ -74,7 +74,7 @@
     </section>
 
     <!-- sectionTwo -->
-    <section class="section" style="margin-top: 10rem;">
+    <section class="section counters" style="margin-top: 10rem;">
         <div class="container is-flex is-justify-content-space-between is-align-items-center">
            <div class="right-content" style="color: var(--text-color)">
                <div class="block" style="max-width: 35rem">
@@ -89,7 +89,7 @@
                         nonumy eirmod tempor invidunt ut labore et dolore <span class="pink">magna</span>
                         aliquyam erat, sed diam voluptua. At vero eos et accusam et justo.
                     </p>
-                   <button class="button button-noOutline">Our Services</button>
+                   <button class="button button-outline">Learn More</button>
                </div>
             </div>
 
@@ -99,7 +99,42 @@
         </div>
    </section>
 
+   <!-- Counters -->
+   <section class="section">
+       <div class="container is-flex is-justify-content-space-between">
+           <div class="column">
+                <span id="one"></span>
+                <p class="is-size-6">Lorem ipsum dolor sit amet, consetetur elitr es sadipscing elitr, sed diam nonumy eirmod.</p>
+           </div>
+           <div class="column">
+                <span id="two"></span>
+                <p class="is-size-6">Lorem ipsum dolor sit amet, consetetur elitr es sadipscing elitr, sed diam nonumy eirmod.</p>
+           </div>
+           <div class="column">
+                <span id="three"></span>
+                <p class="is-size-6">Lorem ipsum dolor sit amet, consetetur elitr es sadipscing elitr, sed diam nonumy eirmod.</p>
+           </div>
+       </div>
+   </section>
+
     <!-- Scripts -->
     <script src="main.js"></script>
+    <script src="node_modules/countup.js/dist/countUp.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="node_modules/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="node_modules/waypoints/src/waypoint.js"></script>
+    <script type="module">
+        import { CountUp } from '/node_modules/countup.js/dist/countUp.js'
+ 
+        var $counters = $('.counters');
+        $counters.waypoint(function() {
+            var countUp = new CountUp('one', 1000);
+            var countUpTwo = new CountUp('two', 2000);
+            var countUpThree = new CountUp('three', 3000);
+            countUp.start();
+            countUpTwo.start();
+            countUpThree.start();
+        }, { offset: '50%'})
+     </script>
 </body>
 </html>
