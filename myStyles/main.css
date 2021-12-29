@@ -1,0 +1,41 @@
+/* My Styles */
+
+/* Root Global Variables */
+:root {
+    --bg-color: #1F1D2C;
+    --bg-color-secondary: #262837;
+    --text-color: #fff;
+    --text-color-secondary: #585C65;
+    --pink-main: #F260F2;
+    --purple-main: #AB52F9;
+}
+
+html {
+    background-color: var(--bg-color);
+}
+
+/* Primary Classes */
+.button-outline {
+    background: transparent;
+    color: var(--text-color);
+    border-radius: 3px 3px 0px 3px;
+    border-color: var(--purple-main);
+}
+
+.button-outline:hover {
+    background: linear-gradient(45deg, rgba(171,82,249,1) 49%, rgba(242,96,242,1) 100%);
+    color: var(--text-color);
+    border-color: transparent;
+}
+
+a.link {
+    color: var(--text-color-secondary);   
+}
+
+a.link:hover {
+    color: var(--text-color);
+}
+
+a.inUse {
+    color: var(--text-color);
+}
