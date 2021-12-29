@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
+    <link rel="stylesheet" href="node_modules/bulma-carousel/dist/css/bulma-carousel.min.css">
     <link rel="stylesheet" href="myStyles/main.css">
     <title>TidalFlash</title>
 </head>
@@ -104,15 +105,15 @@
        <div class="container is-flex is-justify-content-space-between">
            <div class="column">
                 <span id="one"></span>
-                <p class="is-size-6">Lorem ipsum dolor sit amet, consetetur elitr es sadipscing elitr, sed diam nonumy eirmod.</p>
+                <p class="is-size-6" style="color: var(--text-color-secondary)">Lorem ipsum dolor sit amet, consetetur elitr es sadipscing elitr, sed diam nonumy eirmod.</p>
            </div>
            <div class="column">
                 <span id="two"></span>
-                <p class="is-size-6">Lorem ipsum dolor sit amet, consetetur elitr es sadipscing elitr, sed diam nonumy eirmod.</p>
+                <p class="is-size-6" style="color: var(--text-color-secondary)">Lorem ipsum dolor sit amet, consetetur elitr es sadipscing elitr, sed diam nonumy eirmod.</p>
            </div>
            <div class="column">
                 <span id="three"></span>
-                <p class="is-size-6">Lorem ipsum dolor sit amet, consetetur elitr es sadipscing elitr, sed diam nonumy eirmod.</p>
+                <p class="is-size-6" style="color: var(--text-color-secondary)">Lorem ipsum dolor sit amet, consetetur elitr es sadipscing elitr, sed diam nonumy eirmod.</p>
            </div>
        </div>
     </section>
@@ -127,7 +128,7 @@
                         <img src="assets/fakeTwo.svg" alt="image">
                         <div class="is-flex is-justify-content-space-between">
                             <p class="is-size-6 has-text-weight-semibold" style="color: var(--text-color);">Project Title</p>
-                            <p class="is-size-6">25 December 2021</p>
+                            <p class="is-size-6" style="color: var(--text-color-secondary)">25 December 2021</p>
                         </div>
                         <p class="is-size-6 pt-2" style="color: var(--text-color);">
                             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam 
@@ -143,7 +144,7 @@
                         <img src="assets/fakeTwo.svg" alt="image">
                         <div class="is-flex is-justify-content-space-between">
                             <p class="is-size-6 has-text-weight-semibold" style="color: var(--text-color);">Project Title</p>
-                            <p class="is-size-6">25 December 2021</p>
+                            <p class="is-size-6" style="color: var(--text-color-secondary)">25 December 2021</p>
                         </div>
                         <p class="is-size-6 pt-2" style="color: var(--text-color);">
                             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam 
@@ -161,7 +162,7 @@
                         <img src="assets/fakeTwo.svg" alt="image">
                         <div class="is-flex is-justify-content-space-between">
                             <p class="is-size-6 has-text-weight-semibold" style="color: var(--text-color);">Project Title</p>
-                            <p class="is-size-6">25 December 2021</p>
+                            <p class="is-size-6" style="color: var(--text-color-secondary)">25 December 2021</p>
                         </div>
                         <p class="is-size-6 pt-2" style="color: var(--text-color);">
                             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam 
@@ -177,7 +178,7 @@
                         <img src="assets/fakeTwo.svg" alt="image">
                         <div class="is-flex is-justify-content-space-between">
                             <p class="is-size-6 has-text-weight-semibold" style="color: var(--text-color);">Project Title</p>
-                            <p class="is-size-6">25 December 2021</p>
+                            <p class="is-size-6" style="color: var(--text-color-secondary)">25 December 2021</p>
                         </div>
                         <p class="is-size-6 pt-2" style="color: var(--text-color);">
                             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam 
@@ -191,6 +192,101 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- sectionFour -->
+    <section class="section mt-5">
+        <div class="container">
+            <p class="is-size-5 has-text-weight-semibold" style="color: var(--text-color);">Lorem ipsum dolor sit amet, consetetur elitr.</p>
+            <div class="is-flex is-justify-content-space-between is-align-items-flex-end">
+                <p class="is-size-2 has-text-weight-semibold" style="color: var(--text-color); line-height: 50px">Lorem ipsum dolor sit amet,<br> consetetur sadipscing elitr.</p>
+                <a href="clients.html" class="link is-underlined" style="color: var(--text-color-secondary)">View all of our clients</a>
+            </div>
+
+            <!-- Start Carousel -->
+			<div id="carousel-demo" class="carousel mt-6">
+				<div class="item-1 mr-4" style="background-color: var(--bg-color-secondary); padding: 2rem; border-radius: 6px 6px 0px 6px;">
+					<div class="is-flex">
+                        <img src="assets/fakeOne.svg" alt="image" style="margin-right: 2rem;">
+                        <div class="is-flex-direction-column">
+                            <p class="is-size-6 has-text-weight-semibold" style="color: var(--text-color);">Jonathon Doe</p>
+                            <p class="is-size-6" style="color: var(--text-color-secondary)">Managing Director, Doe</p>
+                        </div>
+                    </div>
+                    <p class="is-size-6" style="color: var(--text-color); font-style: italic;">
+                        Lorem ipsum dolor sit amet, consetetur elitr 
+                        sadipscing elitr, sed diam nonumy eirmod et 
+                        tempor invidunt ut labore et dolore magna es 
+                        aliquyam erat, sed diam voluptua. At vero
+                    </p>
+				</div>
+
+				<div class="item-2 mr-4" style="background-color: var(--bg-color-secondary); padding: 2rem; border-radius: 6px 6px 0px 6px;">
+					<div class="is-flex">
+                        <img src="assets/fakeOne.svg" alt="image" style="margin-right: 2rem;">
+                        <div class="is-flex-direction-column">
+                            <p class="is-size-6 has-text-weight-semibold" style="color: var(--text-color);">Jonathon Doe</p>
+                            <p class="is-size-6" style="color: var(--text-color-secondary)">Managing Director, Doe</p>
+                        </div>
+                    </div>
+                    <p class="is-size-6" style="color: var(--text-color); font-style: italic;">
+                        Lorem ipsum dolor sit amet, consetetur elitr 
+                        sadipscing elitr, sed diam nonumy eirmod et 
+                        tempor invidunt ut labore et dolore magna es 
+                        aliquyam erat, sed diam voluptua. At vero
+                    </p>
+				</div>
+
+				<div class="item-3 mr-4" style="background-color: var(--bg-color-secondary); padding: 2rem; border-radius: 6px 6px 0px 6px;">
+					<div class="is-flex">
+                        <img src="assets/fakeOne.svg" alt="image" style="margin-right: 2rem;">
+                        <div class="is-flex-direction-column">
+                            <p class="is-size-6 has-text-weight-semibold" style="color: var(--text-color);">Jonathon Doe</p>
+                            <p class="is-size-6" style="color: var(--text-color-secondary)">Managing Director, Doe</p>
+                        </div>
+                    </div>
+                    <p class="is-size-6" style="color: var(--text-color); font-style: italic;">
+                        Lorem ipsum dolor sit amet, consetetur elitr 
+                        sadipscing elitr, sed diam nonumy eirmod et 
+                        tempor invidunt ut labore et dolore magna es 
+                        aliquyam erat, sed diam voluptua. At vero
+                    </p>
+				</div>
+
+				<div class="item-4 mr-4" style="background-color: var(--bg-color-secondary); padding: 2rem; border-radius: 6px 6px 0px 6px;">
+					<div class="is-flex">
+                        <img src="assets/fakeOne.svg" alt="image" style="margin-right: 2rem;">
+                        <div class="is-flex-direction-column">
+                            <p class="is-size-6 has-text-weight-semibold" style="color: var(--text-color);">Jonathon Doe</p>
+                            <p class="is-size-6" style="color: var(--text-color-secondary)">Managing Director, Doe</p>
+                        </div>
+                    </div>
+                    <p class="is-size-6" style="color: var(--text-color); font-style: italic;">
+                        Lorem ipsum dolor sit amet, consetetur elitr 
+                        sadipscing elitr, sed diam nonumy eirmod et 
+                        tempor invidunt ut labore et dolore magna es 
+                        aliquyam erat, sed diam voluptua. At vero
+                    </p>
+				</div>
+
+				<div class="item-5 mr-4" style="background-color: var(--bg-color-secondary); padding: 2rem; border-radius: 6px 6px 0px 6px;">
+					<div class="is-flex">
+                        <img src="assets/fakeOne.svg" alt="image" style="margin-right: 2rem;">
+                        <div class="is-flex-direction-column">
+                            <p class="is-size-6 has-text-weight-semibold" style="color: var(--text-color);">Jonathon Doe</p>
+                            <p class="is-size-6" style="color: var(--text-color-secondary)">Managing Director, Doe</p>
+                        </div>
+                    </div>
+                    <p class="is-size-6" style="color: var(--text-color); font-style: italic;">
+                        Lorem ipsum dolor sit amet, consetetur elitr 
+                        sadipscing elitr, sed diam nonumy eirmod et 
+                        tempor invidunt ut labore et dolore magna es 
+                        aliquyam erat, sed diam voluptua. At vero
+                    </p>
+				</div>
+			</div>
+			<!-- End Carousel -->
         </div>
     </section>
 
@@ -212,6 +308,21 @@
             countUpTwo.start();
             countUpThree.start();
         }, { offset: '50%'})
-     </script>
+    </script>
+    <script src="node_modules/bulma-carousel/dist/js/bulma-carousel.js"></script>
+    <script type="module">
+        var carousels = bulmaCarousel.attach('#carousel-demo', {
+			slidesToScroll: 1,
+			slidesToShow: 3,
+            infinite: true,
+		});
+
+        for(var i = 0; i < carousels.length; i++) {
+            // Add listener to  event
+            carousels[i].on('before:show', state => {
+                console.log(state);
+            });
+        }
+    </script>
 </body>
 </html>
