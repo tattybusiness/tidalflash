@@ -75,6 +75,16 @@ a.link {
 
 a.link:hover {
     color: var(--text-color);
+    transition: 0.3s ease;
+}
+
+a.linkTwo {
+    color: var(--text-color);
+}
+
+a.linkTwo:hover {
+    margin-right: 0.5rem;
+    transition: 0.3s ease;
 }
 
 a.inUse {
