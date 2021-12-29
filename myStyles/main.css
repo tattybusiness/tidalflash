@@ -20,6 +20,14 @@ body h1 {
 }
 
 /* Primary Classes */
+.spacer-b {
+    margin-bottom: 10rem;
+}
+
+.spacer-t {
+    margin-top: 10rem;
+}
+
 .button-noOutline {
     background: linear-gradient(45deg, rgba(171,82,249,1) 49%, rgba(242,96,242,1) 100%);
     color: var(--text-color);
@@ -79,4 +87,12 @@ a.inUse {
 
 .headerImg {
     width: 550px;
+}
+
+span.purple {
+    color: var(--purple-main);
+}
+
+span.pink {
+    color: var(--pink-main);
 }
