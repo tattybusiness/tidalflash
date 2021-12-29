@@ -14,10 +14,32 @@ html {
     background-color: var(--bg-color);
 }
 
+body h1 {
+    padding: 0;
+    margin: 0;
+}
+
 /* Primary Classes */
+.button-noOutline {
+    background: linear-gradient(45deg, rgba(171,82,249,1) 49%, rgba(242,96,242,1) 100%);
+    color: var(--text-color);
+    font-weight: bold;
+    border-radius: 3px 3px 0px 3px;
+    border-color: transparent;
+}
+
+.button-noOutline:hover {
+    background: transparent;
+    color: var(--text-color);
+    font-weight: bold;
+    border-radius: 3px 3px 0px 3px;
+    border-color: var(--purple-main);
+}
+
 .button-outline {
     background: transparent;
     color: var(--text-color);
+    font-weight: bold;
     border-radius: 3px 3px 0px 3px;
     border-color: var(--purple-main);
 }
@@ -25,7 +47,18 @@ html {
 .button-outline:hover {
     background: linear-gradient(45deg, rgba(171,82,249,1) 49%, rgba(242,96,242,1) 100%);
     color: var(--text-color);
+    border-radius: 3px 3px 0px 3px;
+    font-weight: bold;
     border-color: transparent;
+}
+
+.icon {
+    opacity: 0.3;
+}
+
+.icon:hover {
+    opacity: 1;
+    transition: 0.3s ease;
 }
 
 a.link {
@@ -38,4 +71,12 @@ a.link:hover {
 
 a.inUse {
     color: var(--text-color);
+}
+
+.open {
+    display: block;
+}
+
+.headerImg {
+    width: 550px;
 }
