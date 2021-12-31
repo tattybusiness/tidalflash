@@ -126,3 +126,15 @@ span.pink {
     height: 2px;
     background-color: var(--bg-color-secondary);
 }
+
+.lineTwo {
+    width: 50px;
+    height: 3px;
+    background-color: var(--pink-main);
+}
+
+.bgSection {
+    background-image: url(../assets/fakeFive.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
